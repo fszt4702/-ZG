@@ -89,7 +89,7 @@ ican/
 
 1. 启动微信开发者工具
 2. 选择「导入项目」
-3. 项目目录选择 `D:\4702's secret\大学\个人参加比赛文件\ican`
+3. 项目目录选择 `......\ZG`(或者其他)
 4. AppID 使用测试号（或替换 `project.config.json` 中的 `appid` 字段）
 
 ### 3. 配置 Kimi API Key
