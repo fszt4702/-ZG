@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/detect/detect",
+    "pages/report/report",
+    "pages/archives/archives",
+    "pages/trend/trend",
+    "pages/family/family",
+    "pages/chat/chat",
+    "pages/doctor/doctor",
+    "pages/settings/settings"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "智肝",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FAFAFA"
+  },
+  "tabBar": {
+    "color": "#BBBBBB",
+    "selectedColor": "#6C9BD8",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tab-home.png",
+        "selectedIconPath": "images/tab-home-active.png"
+      },
+      {
+        "pagePath": "pages/archives/archives",
+        "text": "我的报告",
+        "iconPath": "images/tab-report.png",
+        "selectedIconPath": "images/tab-report-active.png"
+      },
+      {
+        "pagePath": "pages/trend/trend",
+        "text": "健康趋势",
+        "iconPath": "images/tab-trend.png",
+        "selectedIconPath": "images/tab-trend-active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
